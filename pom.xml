@@ -85,13 +85,13 @@
 
 	</dependencies>
 	
-	      <distributionManagement>
-    			<repository>
-        			<id>central</id>
-        			<name>Karthikeya-PC-releases</name>
-        			<url>http://localhost:8040/artifactory/flipkart-release</url>
-    			</repository>
-		</distributionManagement>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>Karthikeya-PC-releases</name>
+        <url>http://localhost:8040/artifactory/flipkart-release</url>
+    </repository>
+</distributionManagement>
 	   
 	<build>
 		<finalName>maven-web-application</finalName>
