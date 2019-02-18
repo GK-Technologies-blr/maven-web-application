@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.1.1-SNAPSHOT</version>
+	<version>0.1.1-releases</version>
 	
 	<name>Maven Web Application</name>
 	<url>http://mithuntechnologies.com</url>
@@ -89,12 +89,12 @@
     <repository>
         <id>central</id>
         <name>Karthikeya-PC-releases</name>
-        <url>http://localhost:8040/artifactory/flipkart-release</url>
+        <url>http://localhost:8081/artifactory/flipkart-release/</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>Karthikeya-PC-snapshots</name>
-        <url>http://localhost:8040/artifactory/flipkart-release</url>
+        <url>http://localhost:8081/artifactory/flipkart-release/</url>
     </snapshotRepository>
 </distributionManagement>
 	   
